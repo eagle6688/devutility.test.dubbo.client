@@ -12,6 +12,6 @@ public class App {
 		context.start();
 		IUserService userService = (IUserService) context.getBean("userService");
 		User user = userService.getUser("Aldwin");
-		System.out.println("Hello world" + user.getName());
+		System.out.println("Hello world " + user.getName());
 	}
 }
