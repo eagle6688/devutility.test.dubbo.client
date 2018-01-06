@@ -16,7 +16,8 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>${springVersion}</version>
+			<version>5.0.2.RELEASE</version>
+			<scope>Test</scope>
 		</dependency>
 	</dependencies>
 	<build>
